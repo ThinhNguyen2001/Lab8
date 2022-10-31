@@ -53,6 +53,7 @@ public class CustomListTest {
 //        assertTrue(list.hasCity(city));
 //    }
 
+    @Test
     public void deleteCityTest(){
         list = MockCityList();
         int listSize = list.getCount();
